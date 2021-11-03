@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import mainLogo from  '../Navbar/assets/logo2.png'
-import barcode from  '../Navbar/assets/barcode3.svg'
+import mainLogo from  '../assets/logo2.png'
+import barcode from  '../assets/barcode3.svg'
 import './stylesNav.css'
 
 const Navbar = () => {

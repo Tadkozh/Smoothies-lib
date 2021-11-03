@@ -30,8 +30,6 @@ const SearchFunc = () => {
   return (
     
     <div className="Container">
-      <h1>Products List</h1>
-
       <form onSubmit={handleSubmit}>
         <input
           className="form-control mr-sm-2 m-2"

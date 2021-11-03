@@ -1,0 +1,140 @@
+
+.image-Slide {
+  background-image: url("/slide.f6641b83.png");
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .text-Slide {
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+
+  .image-Head{
+    animation: 4s forwards imageUp;
+    background-image: url("/slide.f6641b83.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+  }
+
+  @keyframes imageUp{
+    100%{
+      height : 28vh;
+    }
+  }
+
+  .text-Home-Hide{
+    display: none;
+  }
+
+  .search-Hide{
+    display: none;
+  }
+
+  .search-Location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+  }
+
+  .food-pref{
+    background-color:#FFEBB0;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 3vh;
+  }
+
+  .barcode-logo{
+    display: flex;
+    justify-content: center;
+    width: 7rem;
+    border : 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+  
+  }
+  
+  .test-title {
+    color: rgb(71, 71, 255);
+    padding-bottom: 1rem;
+  }
+  
+  
+  .searchBar{
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .searchBar input{
+    font-size: 1.2rem;
+  }
+  
+  .search-results{
+    text-align: center;
+    padding: 1rem 1rem;
+    width: 100%;
+  }
+  
+  .search-result{
+    border: 1px solid #eee;
+    margin: 1rem 1rem;
+    padding: 1rem;
+  }
+  
+  .Container{
+    text-align: center;
+    margin-bottom: 5rem;
+    color: green;
+  }
+  
+  .Container h1{
+    padding-bottom: 1rem;
+  }
+  
+  
+  .map-products{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+  }
+  
+  .items{
+    margin-bottom: 1rem ;
+    margin-left: 8rem;
+  }
+  
+  
+  
+  .images  {
+    margin-top: 2rem;
+    display: flex;
+    padding: 1rem;
+    height: auto;
+  }
+.barcode{
+    display: flex;
+    justify-content: center;
+}
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */
